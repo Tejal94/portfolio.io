@@ -1,0 +1,116 @@
+
+
+.litem:hover{
+    box-shadow: 2px 2px 2px grey;
+}
+
+.navbar{
+    position: fixed;
+    width: 100vw;
+    z-index: 1001;
+}
+
+.left{
+    height: 100vh;
+    width: 70vw;
+    background-image: url(/images/bk1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.img1{
+    height: 60px;
+    width: 80px;
+}
+
+.right{
+    position: relative;
+    background-image: url(/images/bk2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 28vw;
+
+}
+
+
+.main{
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 2px solid grey;
+    
+}
+
+.profilePic{
+    position: relative;
+    overflow: visible;
+    height: 60vh;
+    width: 30vw;
+    left: 50vw;
+    top: 25vh;
+    z-index: 1000;
+    
+}
+
+.intro{
+    position: absolute;
+    top: 12rem;
+    left: 8rem;
+    
+}
+
+.cell{
+    border: 4px solid rgb(135, 178, 241);
+    border-radius: 6px;
+    padding: 2rem;
+    padding-top: 1rem !important;
+    margin-left: 3rem;
+}
+
+.cell:hover{
+    box-shadow: 10px 10px 15px grey;
+}
+
+.classicbg{
+    background-color: white;
+    opacity: 60%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 15px grey;
+    transition: all ease-in-out .4s;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.cardm {
+    height: 10rem;
+    padding: 0px;
+    scale: 80%;
+    margin-bottom: 0px !important;
+}
+
+
+.footer{
+    height: 30vh;
+    background-color: rgb(3, 3, 3);
+    color: white;
+}
+
+
+.back{
+    float: right;
+    margin-right: 2rem;
+}
+
+.footer a:link{
+    color: white;
+    text-decoration: none;
+}
+
